@@ -33,6 +33,8 @@ const FilterComp = ({ setCurrentPoly, setAreaPoly }: any) => {
         const matchingData = JsonData.filter(item => item?.unitType === unitType);
         setSelectedUnitType(unitType);
         setCurrentPoly(matchingData);
+        console.log(selectedUnitType);
+        
     }, [setCurrentPoly]);
 
     const handleToggleFilter = useCallback(() => {
