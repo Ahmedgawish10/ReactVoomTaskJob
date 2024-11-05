@@ -15,7 +15,7 @@ const PriceInput = ({ type, max, min,value,name,step, onChange,OnClickLeave }:Fi
             name={name}
             step={step}
             onChange={onChange}
-            onClick={OnClickLeave}
+            onTouchEnd={OnClickLeave}
             style={{ width: '100%', marginTop: '10px',cursor:"pointer" }}
           />
       </div>

@@ -20,8 +20,10 @@ const FilterComp = ({ setCurrentPoly, setAreaPoly }: any) => {
     }, []);
 
     const handleOnClickLeaveArea = useCallback(() => {
-        const matchingData = JsonData.filter(item => item?.area === area);
+        const matchingData = JsonData.filter(item => item?.area == area);
         setCurrentPoly(matchingData);
+        console.log(matchingData);
+        
     }, [area, setCurrentPoly]);
 
     const handleOnClickLeavePrice = useCallback(() => {
@@ -63,7 +65,7 @@ const FilterComp = ({ setCurrentPoly, setAreaPoly }: any) => {
                 </div>
                 </div>
                 <div className="range-container">
-                    <FieldRange type="range" step="50"  min="100" max="500" name="Area" value={area} onChange={handleChangeArea} OnClickLeave={handleOnClickLeaveArea} />
+         <FieldRange type="range" step="50"  min="100" max="500" name="Area" value={area} onChange={handleChangeArea} OnClickLeave={handleOnClickLeaveArea} />
                     <FieldRange type="range"  min="1000" max="90000" name="Price" value={price} onChange={handleChangePrice} OnClickLeave={handleOnClickLeavePrice} />
                 </div>
             </div>
