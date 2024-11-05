@@ -2,8 +2,8 @@
     {
         "code": 1,
         "status": "reserved",
-        "price": 12587,
-        "area":"30m2",
+        "price": 90000,
+        "area":200,
         "unitType":"commercial",
         "unit":"104"
 
@@ -11,272 +11,434 @@
     {
         "code": 2,
         "status": "available",
-        "price": 50807
+        "price": 50807,
+        "area":200,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 3,
         "status": "sold",
-        "price": 8976
+        "price": 8976,
+        "area":100,
+        "unitType":"administrative",
+        "unit":"104"
     },
     {
         "code": 4,
         "status": "available",
-        "price": 66046
+        "price": 66046,
+        "area":150,
+        "unitType":"administrative",
+        "unit":"104"
     },
     {
         "code": 5,
         "status": "reserved",
-        "price": 47704
+        "price": 47704,
+        "area":250,
+        "unitType":"clinical",
+        "unit":"104"
     },
     {
         "code": 6,
         "status": "sold",
-        "price": 39409
+        "price": 39409,
+        "area":250,
+        "unitType":"clinical",
+        "unit":"104"
     },
     {
         "code": 7,
         "status": "available",
-        "price": 58691
+        "price": 58691,
+        "area":300,
+        "unitType":"clinical",
+        "unit":"104"
     },
     {
         "code": 8,
         "status": "reserved",
-        "price": 39351
+        "price": 39351,
+        "area":300,
+        "unitType":"clinical",
+        "unit":"104"
     },
     {
         "code": 9,
         "status": "reserved",
-        "price": 42672
+        "price": 42672,
+        "area":350,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 10,
         "status": "reserved",
-        "price": 76882
+        "price": 76882,
+        "area":350,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 11,
         "status": "available",
-        "price": 88227
+        "price": 88227,
+        "area":400,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 12,
         "status": "reserved",
-        "price": 42712
+        "price": 42712,
+        "area":400,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 13,
         "status": "sold",
-        "price": 1335
+        "price": 1335,
+        "area":450,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 14,
         "status": "sold",
-        "price": 23825
+        "price": 23825,
+        "area":450,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 15,
         "status": "available",
-        "price": 99166
+        "price": 99166,
+        "area":500,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 16,
         "status": "available",
-        "price": 99459
+        "price": 99459,
+        "area":500,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 17,
         "status": "available",
-        "price": 99139
+        "price": 99139,
+        "area":150,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 18,
         "status": "reserved",
-        "price": 25459
+        "price": 25459,
+        "area":150,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 19,
         "status": "reserved",
-        "price": 8040
+        "price": 8040,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 20,
         "status": "reserved",
-        "price": 16327
+        "price": 16327,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 21,
         "status": "reserved",
-        "price": 9938
+        "price": 9938,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 22,
         "status": "available",
-        "price": 59763
+        "price": 59763,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 23,
         "status": "reserved",
-        "price": 12363
+        "price": 12363,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 24,
         "status": "available",
-        "price": 8801
+        "price": 8801,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 25,
         "status": "sold",
-        "price": 30896
+        "price": 30896,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 26,
         "status": "reserved",
-        "price": 89250
+        "price": 89250,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 27,
         "status": "reserved",
-        "price": 43072
+        "price": 43072,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 28,
         "status": "available",
-        "price": 57437
+        "price": 57437,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 29,
         "status": "available",
-        "price": 65683
+        "price": 65683,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 30,
         "status": "reserved",
-        "price": 21172
+        "price": 21172,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 31,
         "status": "reserved",
-        "price": 53078
+        "price": 53078,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 32,
         "status": "reserved",
-        "price": 52223
+        "price": 52223,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 33,
         "status": "available",
-        "price": 35946
+        "price": 35946,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 34,
         "status": "sold",
-        "price": 88330
+        "price": 88330,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 35,
         "status": "sold",
-        "price": 98773
+        "price": 98773,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 36,
         "status": "reserved",
-        "price": 56407
+        "price": 56407,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 37,
         "status": "sold",
-        "price": 75843
+        "price": 75843,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 38,
         "status": "sold",
-        "price": 65034
+        "price": 65034,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 39,
         "status": "available",
-        "price": 87896
+        "price": 87896,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 40,
         "status": "reserved",
-        "price": 88749
+        "price": 88749,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 41,
         "status": "reserved",
-        "price": 53056
+        "price": 53056,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 42,
         "status": "reserved",
-        "price": 55025
+        "price": 55025,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 43,
         "status": "reserved",
-        "price": 25644
+        "price": 25644,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 44,
         "status": "sold",
-        "price": 11344
+        "price": 11344,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 45,
         "status": "sold",
-        "price": 84002
+        "price": 84002,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 46,
         "status": "sold",
-        "price": 149
+        "price": 149,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 47,
         "status": "reserved",
-        "price": 3571
+        "price": 3571,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 48,
         "status": "reserved",
-        "price": 37750
+        "price": 37750,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 49,
         "status": "reserved",
-        "price": 10398
+        "price": 10398,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 50,
         "status": "reserved",
-        "price": 73905
+        "price": 73905,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 51,
         "status": "sold",
-        "price": 6894
+        "price": 6894,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 52,
         "status": "available",
-        "price": 19040
+        "price": 19040,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 53,
         "status": "reserved",
-        "price": 96834
+        "price": 96834,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 54,
         "status": "available",
-        "price": 10425
+        "price": 10425,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 55,
         "status": "sold",
-        "price": 51066
+        "price": 51066,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 56,
@@ -286,51 +448,81 @@
     {
         "code": 57,
         "status": "available",
-        "price": 25303
+        "price": 25303,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 58,
         "status": "reserved",
-        "price": 56502
+        "price": 56502,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 59,
         "status": "available",
-        "price": 30208
+        "price": 30208,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 60,
         "status": "reserved",
-        "price": 62428
+        "price": 62428,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 61,
         "status": "reserved",
-        "price": 23245
+        "price": 23245,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 62,
         "status": "sold",
-        "price": 88115
+        "price": 88115,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 63,
         "status": "sold",
-        "price": 40252
+        "price": 40252,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 64,
         "status": "sold",
-        "price": 53346
+        "price": 53346,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 65,
         "status": "reserved",
-        "price": 55403
+        "price": 55403,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     },
     {
         "code": 66,
         "status": "sold",
-        "price": 81115
+        "price": 81115,
+        "area":50,
+        "unitType":"commercial",
+        "unit":"104"
     }
 ]
