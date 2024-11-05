@@ -1,6 +1,6 @@
 import '../../src/index.css';
 import { FieldInputProps } from '../type/types';
-const PriceInput = ({ type, max, min,value,name,step, onChange,OnClickLeave }:FieldInputProps) => {
+const PriceInput = ({ type, max, min,value,name,step, OnChange,OnClick,OnTouchEnd }:FieldInputProps) => {
   return (
         <div className="range-field">
           <div style={{ display:"flex",justifyContent:"space-between",color:"white"}}>
@@ -14,8 +14,9 @@ const PriceInput = ({ type, max, min,value,name,step, onChange,OnClickLeave }:Fi
             value={value}
             name={name}
             step={step}
-            onChange={onChange}
-            onTouchEnd={OnClickLeave}
+            onChange={OnChange}
+            onClick={OnClick}
+            onTouchEnd={OnTouchEnd}
             style={{ width: '100%', marginTop: '10px',cursor:"pointer" }}
           />
       </div>

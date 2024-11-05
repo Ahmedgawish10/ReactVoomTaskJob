@@ -9,28 +9,29 @@ const FilterComp = ({ setCurrentPoly, setAreaPoly }: any) => {
     const [selectedUnitType, setSelectedUnitType] = useState<string | null>(null);
     const [toggleFilterVisible, setToggleFilterVisible] = useState(true);
 
+
+
+    // when user onChange on  the input in  for area set the value
     const handleChangeArea = useCallback((event: React.ChangeEvent<HTMLInputElement>) => {
         const newArea = parseInt(event.target.value);
         setArea(newArea);
         setAreaPoly(newArea);
     }, [setAreaPoly]);
-
+    // when user onChange on  the input in  for price set the value
     const handleChangePrice = useCallback((event: React.ChangeEvent<HTMLInputElement>) => {
         setPrice(parseFloat(event.target.value));
     }, []);
-
-    const handleOnClickLeaveArea = useCallback(() => {
+   // when user clicks and leave the input in pc for area for high performance and less rerender comp
+    const handleOnClickArea = useCallback(() => {
         const matchingData = JsonData.filter(item => item?.area == area);
         setCurrentPoly(matchingData);
-        console.log(matchingData);
-        
     }, [area, setCurrentPoly]);
-
-    const handleOnClickLeavePrice = useCallback(() => {
+   // when user clicks and leave the input in pc for price for high performance and less rerender comp
+    const handleOnClickPrice = useCallback(() => {
         const matchingData = JsonData.filter(item => item?.price === price);
         setCurrentPoly(matchingData);
     }, [price, setCurrentPoly]);
-
+     // when user click on type (commeriacl or clicnial )
     const handleUnitTypeClick = useCallback((unitType: string) => {
         const matchingData = JsonData.filter(item => item?.unitType === unitType);
         setSelectedUnitType(unitType);
@@ -38,7 +39,17 @@ const FilterComp = ({ setCurrentPoly, setAreaPoly }: any) => {
         console.log(selectedUnitType);
         
     }, [setCurrentPoly]);
-
+   // when user touch and leave the input in mobile for area 
+    const handleOnTouchEndArea = useCallback(() => {
+        const matchingData = JsonData.filter(item => item?.area === area);
+        setCurrentPoly(matchingData);
+    }, [area, setCurrentPoly]);
+    // when user touch and leave the input in mobile for Price 
+    const handleOnTouchEndOrice = useCallback(() => {
+        const matchingData = JsonData.filter(item => item?.price === price);
+        setCurrentPoly(matchingData);
+    }, [price, setCurrentPoly]);
+   // toggel visible filter
     const handleToggleFilter = useCallback(() => {
         setToggleFilterVisible(prevVisible => !prevVisible);
         
@@ -64,9 +75,11 @@ const FilterComp = ({ setCurrentPoly, setAreaPoly }: any) => {
                     Clinical
                 </div>
                 </div>
-                <div className="range-container">
-         <FieldRange type="range" step="50"  min="100" max="500" name="Area" value={area} onChange={handleChangeArea} OnClickLeave={handleOnClickLeaveArea} />
-                    <FieldRange type="range"  min="1000" max="90000" name="Price" value={price} onChange={handleChangePrice} OnClickLeave={handleOnClickLeavePrice} />
+                <div className="range-container"> 
+                 <FieldRange type="range" step="50"  min="100" max="500" name="Area" value={area} 
+                 OnChange={handleChangeArea} OnClick={handleOnClickArea} OnTouchEnd={handleOnTouchEndArea} />
+                <FieldRange type="range"  min="1000" max="90000" name="Price" value={price}
+                     OnChange={handleChangePrice} OnClick={handleOnClickPrice} OnTouchEnd={handleOnTouchEndOrice}  />
                 </div>
             </div>
         </>

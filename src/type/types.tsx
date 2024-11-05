@@ -15,6 +15,8 @@ export default interface InterfaceDataPoly {
     step?:string;
     value?: number;
     name?:string;
-    onChange?: (e:React.ChangeEvent<HTMLInputElement>) => void;
-    OnClickLeave?:()=>void;
+    OnChange: (e:React.ChangeEvent<HTMLInputElement>) => void;
+    OnClick:React.MouseEventHandler<HTMLInputElement>;
+    OnTouchEnd?:React.TouchEventHandler<HTMLInputElement>;
+
 }
